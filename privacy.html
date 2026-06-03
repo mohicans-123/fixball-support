@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index,follow">
+<title>Fixball — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root{
+    --bg:#f6f8f6;
+    --card:#ffffff;
+    --ink:#16241b;
+    --muted:#5a6b60;
+    --line:#e2e8e3;
+    --accent:#1a7a3c;
+    --accent-soft:#e7f3eb;
+    --shadow:0 1px 2px rgba(16,40,24,.04),0 8px 28px rgba(16,40,24,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e140f;
+      --card:#151d17;
+      --ink:#e8efe9;
+      --muted:#9bab9f;
+      --line:#26312a;
+      --accent:#4cc371;
+      --accent-soft:#16271c;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;
+    font-size:17px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:28px 22px 80px;}
+  header.top{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:16px;flex-wrap:wrap;margin-bottom:28px;
+  }
+  .brand{display:flex;align-items:center;gap:12px;}
+  .logo{
+    width:42px;height:42px;border-radius:12px;flex:0 0 auto;
+    background:var(--accent);position:relative;box-shadow:var(--shadow);
+  }
+  .logo::before{
+    content:"";position:absolute;inset:0;border-radius:12px;
+    background:
+      radial-gradient(circle at 50% 50%, rgba(255,255,255,.9) 0 5px, transparent 6px),
+      linear-gradient(to right, transparent 49%, rgba(255,255,255,.5) 49% 51%, transparent 51%);
+  }
+  .brand h1{font-size:20px;margin:0;letter-spacing:.2px;}
+  .brand .sub{font-size:13px;color:var(--muted);margin-top:1px;}
+  .lang{
+    display:inline-flex;border:1px solid var(--line);border-radius:999px;
+    overflow:hidden;background:var(--card);box-shadow:var(--shadow);
+  }
+  .lang button{
+    appearance:none;border:0;background:transparent;color:var(--muted);
+    font:inherit;font-size:14px;font-weight:600;padding:8px 16px;cursor:pointer;
+  }
+  .lang button.active{background:var(--accent);color:#fff;}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:30px 28px;box-shadow:var(--shadow);
+  }
+  h2.title{font-size:26px;margin:0 0 4px;letter-spacing:-.3px;}
+  .updated{color:var(--muted);font-size:14px;margin:0 0 24px;}
+  h3{font-size:18px;margin:30px 0 8px;letter-spacing:-.1px;}
+  h3:first-of-type{margin-top:18px;}
+  p{margin:0 0 12px;}
+  ul{margin:0 0 12px;padding-left:22px;}
+  li{margin:0 0 7px;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .pill{
+    display:inline-block;background:var(--accent-soft);color:var(--accent);
+    font-size:13px;font-weight:600;padding:3px 11px;border-radius:999px;
+    margin-bottom:14px;
+  }
+  .note{
+    background:var(--accent-soft);border-radius:12px;padding:14px 16px;
+    font-size:15px;color:var(--ink);margin:18px 0;
+  }
+  footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center;}
+  [data-lang]{display:none;}
+  [data-lang].show{display:block;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <h1>Fixball</h1>
+        <div class="sub">com.lyh.fixball</div>
+      </div>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button id="btn-tr" class="active" onclick="setLang('tr')">Türkçe</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- ============ TÜRKÇE ============ -->
+  <main class="card" data-lang="tr" id="content-tr">
+    <span class="pill">Gizlilik Politikası</span>
+    <h2 class="title">Fixball Gizlilik Politikası</h2>
+    <p class="updated">Son güncelleme: 4 Haziran 2026</p>
+
+    <p>Fixball ("uygulama"), Lütfi Yağız Hacışabanoğlu tarafından geliştirilen, Haxball benzeri 1'e 1 bir mini futbol oyunudur. Gizliliğinize değer veriyoruz. Bu politika, uygulamayı kullandığınızda hangi verilerin işlendiğini sade bir dille açıklar.</p>
+
+    <div class="note"><strong>Kısa özet:</strong> Fixball hesap, isim, e-posta veya konum bilgisi toplamaz. Reklam göstermez, sizi takip etmez ve verilerinizi satmaz. Yalnızca <strong>çevrimiçi (Online) modu</strong> kullandığınızda, oyunu oynayabilmeniz için cihazınız oyun sunucumuza bağlanır.</p>
+
+    <h3>1. Cihazınızda saklanan veriler</h3>
+    <p>Uygulama ayarlarınız (dil seçimi, tuş yerleşimi, joystick boyutu gibi tercihler) yalnızca cihazınızın kendi belleğinde saklanır. Bu veriler cihazınızdan çıkmaz, hiçbir sunucuya gönderilmez ve bizim tarafımızdan görülemez. Uygulamayı kaldırdığınızda bu veriler de silinir.</p>
+
+    <h3>2. Çevrimiçi (Online) mod</h3>
+    <p>Yalnızca uygulamadaki "Online" modunu kullanmayı seçtiğinizde, cihazınız oyun sunucumuza (<code>fixball.com.tr</code>) güvenli bir bağlantı (WebSocket / TLS) üzerinden bağlanır. Bu sırada:</p>
+    <ul>
+      <li><strong>IP adresi:</strong> Herhangi bir internet bağlantısında olduğu gibi, sunucumuz bağlantıyı kurabilmek için cihazınızın IP adresini görür. Sunucu kayıtları (loglar), çalışma ve güvenlik amacıyla IP adresini kısa bir süre tutabilir; bu kayıtlar düzenli olarak silinir/değiştirilir.</li>
+      <li><strong>Oyun verisi:</strong> Oda kodu, oyuncu hareketleri, oyuncu ve top pozisyonları gibi oyun anına ait veriler, iki oyuncu arasında gerçek zamanlı olarak aktarılır. Sunucumuz yalnızca bir aktarım (relay) görevi görür; bu veriler kalıcı bir veritabanında saklanmaz ve maç bittikten sonra tutulmaz.</li>
+    </ul>
+    <p>Online modu kullanmazsanız (tek başına oynarsanız), uygulama hiçbir sunucuya bağlanmaz ve internet bağlantısı kullanmaz.</p>
+
+    <h3>3. Toplamadığımız veriler</h3>
+    <ul>
+      <li>Ad, soyad, e-posta, telefon numarası gibi kişisel bilgiler — toplamıyoruz.</li>
+      <li>Hesap veya giriş (login) — uygulamada hesap sistemi yoktur.</li>
+      <li>Hassas konum (GPS) verisi — toplamıyoruz.</li>
+      <li>Reklam tanımlayıcıları, analitik veya takip araçları — kullanmıyoruz.</li>
+      <li>Fotoğraf, rehber, mikrofon, kamera erişimi — istemiyoruz.</li>
+    </ul>
+
+    <h3>4. Verilerin kullanım amacı</h3>
+    <p>İşlenen tek veri (IP adresi ve anlık oyun verisi), yalnızca çevrimiçi maçın çalışmasını sağlamak ve sunucunun kötüye kullanımını önlemek için kullanılır. Başka hiçbir amaçla kullanılmaz.</p>
+
+    <h3>5. Hizmet sağlayıcılar</h3>
+    <p>Oyun sunucumuz, Türkiye'de bulunan bir barındırma (hosting) sağlayıcısının sunucularında çalışır. Bu sağlayıcı, yalnızca altyapı hizmeti sunar. Ayrıca uygulamayı Apple App Store veya Google Play üzerinden indirdiğinizde, bu mağazaların kendi gizlilik politikaları geçerlidir.</p>
+
+    <h3>6. Veri saklama süresi</h3>
+    <p>Cihazınızdaki ayarlar, siz silene veya uygulamayı kaldırana kadar saklanır. Sunucu tarafında oyun verisi kalıcı olarak saklanmaz; teknik bağlantı kayıtları yalnızca kısa süreli tutulur.</p>
+
+    <h3>7. Çocukların gizliliği</h3>
+    <p>Fixball, çocuklardan bilerek kişisel veri toplamaz. Uygulama kişisel bilgi toplamadığı için tüm yaş gruplarına uygundur. Bir ebeveyn veya vasi olarak bir endişeniz varsa lütfen bizimle iletişime geçin.</p>
+
+    <h3>8. Güvenlik</h3>
+    <p>Sunucuyla yapılan tüm bağlantılar şifreli (TLS / HTTPS / WSS) olarak gerçekleşir. Buna rağmen internet üzerinden hiçbir aktarımın %100 güvenli olduğu garanti edilemez.</p>
+
+    <h3>9. Haklarınız</h3>
+    <p>Uygulama kişisel veri toplamadığı için silinecek bir hesabınız veya profiliniz yoktur. Cihazınızda saklanan ayarları, uygulamayı kaldırarak istediğiniz zaman silebilirsiniz. Herhangi bir sorunuz için aşağıdaki adresten bize ulaşabilirsiniz.</p>
+
+    <h3>10. Bu politikadaki değişiklikler</h3>
+    <p>Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklik olduğunda bu sayfadaki "Son güncelleme" tarihi yenilenir.</p>
+
+    <h3>11. İletişim</h3>
+    <p>Sorularınız için: <a href="mailto:y.lutfihacisabanoglu@gmail.com">y.lutfihacisabanoglu@gmail.com</a></p>
+  </main>
+
+  <!-- ============ ENGLISH ============ -->
+  <main class="card" data-lang="en" id="content-en">
+    <span class="pill">Privacy Policy</span>
+    <h2 class="title">Fixball Privacy Policy</h2>
+    <p class="updated">Last updated: June 4, 2026</p>
+
+    <p>Fixball (the "app") is a Haxball-style 1v1 mini football game developed by Lütfi Yağız Hacışabanoğlu. We respect your privacy. This policy explains, in plain language, what data is processed when you use the app.</p>
+
+    <div class="note"><strong>Short summary:</strong> Fixball does not collect accounts, names, emails, or location data. It shows no ads, does not track you, and does not sell your data. Only when you use <strong>Online mode</strong> does your device connect to our game server so that you can play a match.</div>
+
+    <h3>1. Data stored on your device</h3>
+    <p>Your app settings (preferences such as language, control layout, and joystick size) are stored only in your device's own storage. This data never leaves your device, is not sent to any server, and cannot be seen by us. It is removed when you uninstall the app.</p>
+
+    <h3>2. Online mode</h3>
+    <p>Only when you choose to use the app's "Online" mode does your device connect to our game server (<code>fixball.com.tr</code>) over a secure connection (WebSocket / TLS). During this:</p>
+    <ul>
+      <li><strong>IP address:</strong> As with any internet connection, our server sees your device's IP address in order to establish the connection. Server logs may retain the IP address for a short time for operational and security purposes; these logs are rotated/deleted regularly.</li>
+      <li><strong>Gameplay data:</strong> Match-time data such as the room code, player inputs, and player/ball positions is relayed in real time between the two players. Our server acts only as a relay; this data is not stored in a permanent database and is not kept after the match ends.</li>
+    </ul>
+    <p>If you do not use Online mode (i.e., you play alone), the app does not connect to any server and does not use your internet connection.</p>
+
+    <h3>3. Data we do not collect</h3>
+    <ul>
+      <li>Personal information such as name, email, or phone number — not collected.</li>
+      <li>Accounts or logins — the app has no account system.</li>
+      <li>Precise location (GPS) data — not collected.</li>
+      <li>Advertising identifiers, analytics, or tracking tools — not used.</li>
+      <li>Access to photos, contacts, microphone, or camera — not requested.</li>
+    </ul>
+
+    <h3>4. How data is used</h3>
+    <p>The only data processed (your IP address and live gameplay data) is used solely to make the online match work and to prevent misuse of the server. It is not used for any other purpose.</p>
+
+    <h3>5. Service providers</h3>
+    <p>Our game server runs on the servers of a hosting provider located in Türkiye. This provider supplies infrastructure only. In addition, when you download the app via the Apple App Store or Google Play, those stores' own privacy policies apply.</p>
+
+    <h3>6. Data retention</h3>
+    <p>Settings on your device are kept until you delete them or uninstall the app. On the server side, gameplay data is not stored permanently; technical connection logs are kept only for a short time.</p>
+
+    <h3>7. Children's privacy</h3>
+    <p>Fixball does not knowingly collect personal data from children. Because the app collects no personal information, it is suitable for all ages. If you are a parent or guardian and have a concern, please contact us.</p>
+
+    <h3>8. Security</h3>
+    <p>All connections to the server are encrypted (TLS / HTTPS / WSS). Even so, no transmission over the internet can be guaranteed to be 100% secure.</p>
+
+    <h3>9. Your rights</h3>
+    <p>Because the app collects no personal data, there is no account or profile to delete. You can remove the settings stored on your device at any time by uninstalling the app. For any questions, you can reach us at the address below.</p>
+
+    <h3>10. Changes to this policy</h3>
+    <p>We may update this privacy policy from time to time. When we do, the "Last updated" date on this page will be revised.</p>
+
+    <h3>11. Contact</h3>
+    <p>For questions: <a href="mailto:y.lutfihacisabanoglu@gmail.com">y.lutfihacisabanoglu@gmail.com</a></p>
+  </main>
+
+  <footer>© 2026 Fixball — Lütfi Yağız Hacışabanoğlu</footer>
+</div>
+
+<script>
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.getElementById('content-tr').classList.toggle('show', l==='tr');
+    document.getElementById('content-en').classList.toggle('show', l==='en');
+    document.getElementById('btn-tr').classList.toggle('active', l==='tr');
+    document.getElementById('btn-en').classList.toggle('active', l==='en');
+  }
+  // Cihaz dili Türkçe değilse İngilizce aç; aksi halde Türkçe (uygulamadaki mantıkla aynı)
+  setLang((navigator.language || 'tr').toLowerCase().startsWith('tr') ? 'tr' : 'en');
+</script>
+</body>
+</html>
